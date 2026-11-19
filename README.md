@@ -10,12 +10,14 @@ My Arduino lessons. Each lesson is one sketch in its own folder.
 | L2 | [L2-led-lamp](L2-led-lamp/L2-led-lamp.ino) | Blink one LED on pin 8 (1 s on, 1 s off) | 9600 |
 | L3 | [L3-traffic-light](L3-traffic-light/L3-traffic-light.ino) | Traffic light: red 5 s, yellow blinks 3 s, green 4 s | 9600 |
 | L4 | [L4-led-brightness-control](L4-led-brightness-control/L4-led-brightness-control.ino) | Potentiometer on A1 sets LED brightness on pin 3 (PWM) | 9600 |
+| L5 | [L5-button-pull-down](L5-button-pull-down/L5-button-pull-down.ino) | Button on pin 2 (pull-down) turns on LED on pin 3; prints button state | 9600 |
 
 ## Wiring
 
 - **L2:** LED on pin 8, through a resistor to GND.
 - **L3:** red LED on pin 11, yellow LED on pin 12, green LED on pin 13. Each LED goes through a resistor to GND.
 - **L4:** potentiometer middle pin on A1, outer pins on 5V and GND. Red LED on pin 3, through a resistor to GND.
+- **L5:** button between 5V and pin 2. Pull-down resistor (for example 10 kΩ) from pin 2 to GND. LED on pin 3, through a resistor to GND.
 
 ## How to run
 
