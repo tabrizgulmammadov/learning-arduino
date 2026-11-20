@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 520" width="1260" height="520" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#232425"/>
+<g id="arduino-uno" font-family="Arial, Helvetica, sans-serif">
+<rect x="50" y="168" width="40" height="34" rx="14" fill="#2a2a2a"/>
+<rect x="80" y="152" width="80" height="66" rx="6" fill="#2f2f2f"/>
+<rect x="85" y="148" width="9" height="74" rx="3" fill="#3a3a3a"/>
+<rect x="100" y="148" width="9" height="74" rx="3" fill="#3a3a3a"/>
+<rect x="115" y="148" width="9" height="74" rx="3" fill="#3a3a3a"/>
+<rect x="130" y="148" width="9" height="74" rx="3" fill="#3a3a3a"/>
+<rect x="145" y="148" width="9" height="74" rx="3" fill="#3a3a3a"/>
+<rect x="160" y="130" width="185" height="100" rx="6" fill="#2d2d2d" stroke="#4a4a4a" stroke-width="2"/>
+<rect x="225" y="150" width="98" height="60" fill="none" stroke="#bbb" stroke-width="1.5"/>
+<path d="M240 180 h55 M267 180 l-10 -14 h-8 M273 180 l-8 14" stroke="#fff" stroke-width="3" fill="none"/>
+<circle cx="300" cy="180" r="6" fill="#fff"/>
+<rect x="345" y="155" width="95" height="60" fill="#6b6b6b" stroke="#888"/>
+<line x1="355" y1="185" x2="430" y2="185" stroke="#888"/>
+<path d="M513 40 H1050 L1075 65 V170 L1050 195 V445 L1025 475 H513 Q505 475 505 467 V48 Q505 40 513 40 Z" fill="#2f6b9a" stroke="#24557c" stroke-width="2"/>
+<circle cx="630" cy="62" r="12" fill="#232425" stroke="#1b1b1b" stroke-width="3"/>
+<circle cx="1045" cy="185" r="12" fill="#232425" stroke="#1b1b1b" stroke-width="3"/>
+<circle cx="1045" cy="412" r="12" fill="#232425" stroke="#1b1b1b" stroke-width="3"/>
+<circle cx="620" cy="455" r="12" fill="#232425" stroke="#1b1b1b" stroke-width="3"/>
+<rect x="453" y="133" width="135" height="97" fill="#2c2c2c" stroke="#9a9a9a" stroke-width="1.5"/>
+<rect x="567" y="150" width="14" height="63" fill="#1e1e1e"/>
+<rect x="483" y="380" width="112" height="80" rx="6" fill="#121212"/>
+<rect x="483" y="408" width="16" height="30" fill="#e8e8e8"/>
+<rect x="527" y="55" width="62" height="60" rx="4" fill="#d9d9d9"/>
+<circle cx="558" cy="85" r="14" fill="#d9826b"/>
+<circle cx="645" cy="410" r="25" fill="#1b1b1b" stroke="#333" stroke-width="2"/>
+<circle cx="705" cy="410" r="25" fill="#1b1b1b" stroke="#333" stroke-width="2"/>
+<rect x="643" y="168" width="44" height="44" fill="#1f1f1f"/>
+<rect x="605" y="245" width="100" height="36" rx="18" fill="#1b1b1b" stroke="#777" stroke-width="2"/>
+<text x="655" y="268" fill="#ddd" font-size="11" text-anchor="middle">SPK16.000G</text>
+<rect x="733" y="308" width="305" height="70" fill="#1b1b1b"/>
+<circle cx="775" cy="343" r="8" fill="#ddd"/>
+<circle cx="993" cy="343" r="8" fill="#ddd"/>
+<rect x="650" y="288" width="22" height="22" fill="#9a9a9a"/>
+<rect x="720" y="133" width="28" height="10" fill="#e8e8e8"/>
+<text x="713" y="143" fill="#fff" font-size="12" font-weight="bold" text-anchor="end">L</text>
+<rect x="720" y="173" width="28" height="10" fill="#e8e8e8"/>
+<text x="713" y="183" fill="#fff" font-size="12" font-weight="bold" text-anchor="end">TX</text>
+<rect x="720" y="193" width="28" height="10" fill="#e8e8e8"/>
+<text x="713" y="203" fill="#fff" font-size="12" font-weight="bold" text-anchor="end">RX</text>
+<rect x="982" y="173" width="24" height="10" fill="#e8e8e8"/>
+<text x="1009" y="183" fill="#fff" font-size="12" font-weight="bold">ON</text>
+<circle cx="790" cy="158" r="20" fill="none" stroke="#fff" stroke-width="8"/>
+<circle cx="835" cy="158" r="20" fill="none" stroke="#fff" stroke-width="8"/>
+<path d="M781 158 h18 M826 158 h18 M835 149 v18" stroke="#fff" stroke-width="4"/>
+<text x="812" y="203" fill="#fff" font-size="19" font-weight="bold" text-anchor="middle">ARDUINO</text>
+<rect x="877" y="137" width="94" height="44" rx="22" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="3 2"/>
+<text x="924" y="172" fill="#2f6b9a" stroke="#fff" stroke-width="1.2" font-size="32" text-anchor="middle">UNO</text>
+<text x="905" y="117" fill="#fff" font-size="15" font-weight="bold" text-anchor="middle">DIGITAL (PWM~)</text>
+<line x1="785" y1="392" x2="890" y2="392" stroke="#fff"/>
+<text x="835" y="410" fill="#fff" font-size="15" font-weight="bold" text-anchor="middle">POWER</text>
+<line x1="910" y1="392" x2="1035" y2="392" stroke="#fff"/>
+<text x="973" y="410" fill="#fff" font-size="15" font-weight="bold" text-anchor="middle">ANALOG IN</text>
+<rect x="646" y="50" width="211" height="22" fill="#d9d9d9" stroke="#9a9a9a"/>
+<rect x="652" y="56" width="10" height="10" fill="#6b6b6b"/>
+<rect x="673" y="56" width="10" height="10" fill="#6b6b6b"/>
+<rect x="694" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(704,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">AREF</text>
+<rect x="715" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(725,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">GND</text>
+<rect x="736" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(746,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">13</text>
+<rect x="757" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(767,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">12</text>
+<rect x="778" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(788,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">~11</text>
+<rect x="799" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(809,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">~10</text>
+<rect x="820" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(830,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">~9</text>
+<rect x="841" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(851,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">8</text>
+<rect x="867" y="50" width="169" height="22" fill="#d9d9d9" stroke="#9a9a9a"/>
+<rect x="873" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(883,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">7</text>
+<rect x="894" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(904,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">~6</text>
+<rect x="915" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(925,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">~5</text>
+<rect x="936" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(946,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">4</text>
+<rect x="957" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(967,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">~3</text>
+<rect x="978" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(988,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">2</text>
+<rect x="999" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(1009,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">TX▸1</text>
+<rect x="1020" y="56" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(1030,81) rotate(-90)" text-anchor="end" fill="#fff" font-size="13" font-weight="bold">RX◂0</text>
+<rect x="722" y="444" width="169" height="22" fill="#d9d9d9" stroke="#9a9a9a"/>
+<rect x="728" y="450" width="10" height="10" fill="#6b6b6b"/>
+<rect x="749" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(759,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">IOREF</text>
+<rect x="770" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(780,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">RESET</text>
+<rect x="791" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(801,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">3.3V</text>
+<rect x="812" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(822,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">5V</text>
+<rect x="833" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(843,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">GND</text>
+<rect x="854" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(864,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">GND</text>
+<rect x="875" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(885,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">Vin</text>
+<rect x="908" y="444" width="127" height="22" fill="#d9d9d9" stroke="#9a9a9a"/>
+<rect x="914" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(924,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">A0</text>
+<rect x="935" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(945,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">A1</text>
+<rect x="956" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(966,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">A2</text>
+<rect x="977" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(987,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">A3</text>
+<rect x="998" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(1008,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">A4</text>
+<rect x="1019" y="450" width="10" height="10" fill="#6b6b6b"/>
+<text transform="translate(1029,437) rotate(-90)" text-anchor="start" fill="#fff" font-size="13" font-weight="bold">A5</text>
+</g>
+</svg>
