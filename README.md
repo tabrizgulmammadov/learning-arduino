@@ -53,6 +53,17 @@ Common-cathode RGB LED. Long leg on GND. Red leg on pin 6, green leg on pin 3, b
 
 ![L6 circuit](L6-rgb-led/circuit.png)
 
+The pin wires in the image have the color of the LED leg they drive.
+
+| LED leg (left to right, in Tinkercad) | Connects to |
+|---------------------------------------|-------------|
+| 1 – red | resistor → pin 6 |
+| 2 – common cathode (longest) | GND |
+| 3 – blue | resistor → pin 5 |
+| 4 – green | resistor → pin 3 |
+
+> **Note:** This leg order is for the Tinkercad RGB LED. A real RGB LED can have a different order. Many common-cathode LEDs use red, cathode, green, blue, but it changes between makers and batches. Before you wire a real LED, find the longest leg (cathode, to GND). Then touch each other leg to 5V through a resistor and see which color it lights. Connect each color to its pin in the code.
+
 ## How to run
 
 1. Open the `.ino` file in the Arduino IDE.
