@@ -2,6 +2,14 @@
 
 My Arduino lessons. Each lesson is one sketch in its own folder.
 
+## Course from zero (`dersler/`)
+
+A step-by-step course for my son, in Azerbaijani. One new idea per lesson. Each lesson builds on the previous one.
+
+| № | Lesson | New idea |
+|---|--------|----------|
+| 1 | [D01-robot-beyni](dersler/D01-robot-beyni/) | Commands run in order; `setup()` runs once, `loop()` repeats |
+
 ## Lessons
 
 | Lesson | Sketch | What it shows | Serial baud |
