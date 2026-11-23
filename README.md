@@ -77,7 +77,7 @@ How it works:
 
 1. At start, the laser turns on.
 2. When the LDR value goes above `THRESHOLD` (500), the beam is on the LDR. The system arms and prints `Sistem aktivdir`.
-3. If the system is armed and the value falls to `THRESHOLD` or below, the beam is broken. The buzzer plays 1000 Hz and the Serial Monitor prints the value and `MANEE!`.
+3. If the system is armed and the value falls to `THRESHOLD` or below, the beam is broken. The buzzer plays 1000 Hz and the Serial Monitor prints the value and `MANEƏ!`.
 4. When the beam comes back, the buzzer stops.
 
 > **Note:** Set `THRESHOLD` for your room light. Read the A0 value with the beam on and with the beam blocked. Use a value between the two.

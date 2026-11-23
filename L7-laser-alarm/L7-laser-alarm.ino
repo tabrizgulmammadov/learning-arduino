@@ -25,7 +25,7 @@ void loop() {
   if (armed && !beamOk) {
     tone(BUZZER_PIN, 1000);
     Serial.print(value);
-    Serial.println("  MANEE!");
+    Serial.println("  MANEƏ!");
   } else {
     noTone(BUZZER_PIN);
   }
