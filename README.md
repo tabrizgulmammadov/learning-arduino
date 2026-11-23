@@ -12,6 +12,7 @@ My Arduino lessons. Each lesson is one sketch in its own folder.
 | L4 | [L4-led-brightness-control](L4-led-brightness-control/L4-led-brightness-control.ino) | Potentiometer on A1 sets LED brightness on pin 3 (PWM) | 9600 |
 | L5 | [L5-button-pull-down](L5-button-pull-down/L5-button-pull-down.ino) | Button on pin 2 (pull-down) turns on LED on pin 3; prints button state | 9600 |
 | L6 | [L6-rgb-led](L6-rgb-led/L6-rgb-led.ino) | Three potentiometers (A0, A1, A2) set the red, blue and green brightness of an RGB LED (pins 6, 5, 3, PWM) | — |
+| L7 | [L7-laser-alarm](L7-laser-alarm/L7-laser-alarm.ino) | Laser alarm: laser (pin 7) shines on an LDR (A0); if the beam breaks, the buzzer (pin 8) sounds | 9600 |
 
 ## Circuits
 
@@ -63,6 +64,23 @@ The pin wires in the image have the color of the LED leg they drive.
 | 4 – green | resistor → pin 3 |
 
 > **Note:** This leg order is for the Tinkercad RGB LED. A real RGB LED can have a different order. Many common-cathode LEDs use red, cathode, green, blue, but it changes between makers and batches. Before you wire a real LED, find the longest leg (cathode, to GND). Then touch each other leg to 5V through a resistor and see which color it lights. Connect each color to its pin in the code.
+
+### L7 – Laser alarm
+
+LDR between 5V and A0. Resistor (for example 10 kΩ) from A0 to GND. Laser on pin 7, through a resistor to GND. Buzzer between pin 8 and GND.
+
+![L7 circuit](L7-laser-alarm/circuit.png)
+
+In Tinkercad, a red LED is the laser.
+
+How it works:
+
+1. At start, the laser turns on.
+2. When the LDR value goes above `THRESHOLD` (500), the beam is on the LDR. The system arms and prints `Sistem aktivdir`.
+3. If the system is armed and the value falls to `THRESHOLD` or below, the beam is broken. The buzzer plays 1000 Hz and the Serial Monitor prints the value and `MANEE!`.
+4. When the beam comes back, the buzzer stops.
+
+> **Note:** Set `THRESHOLD` for your room light. Read the A0 value with the beam on and with the beam blocked. Use a value between the two.
 
 ## How to run
 
